@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+.header
+{
+	background: radial-gradient();
+	height: 120px;
+}
+.container
+{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px
+}
+.navbar-style
+{
+	box-shadow: 0 5px 10px;
+	background:#EBE297;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav
+{
+	text-align: right;
+	flex:1;
+	color: lawngreen
+}
+h1
+{
+	color: brown;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+	text-align: center
+	
+}
+p
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: left
+}
+body
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.center
+{
+    top: 291px;
+    left: 310px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 574px;
+    height: 324px;
+}
+.center form
+{
+	padding: 0 40px;
+	box-sizing: border-box
+}
+form .txt_field
+{
+	position: relative;
+	border-bottom: 10px solid #113232;
+	margin: 30px 0;
+}
+.txt_field input
+{
+	 width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: #D6D4D4;
+}
+.txt_field label
+{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 18px;
+	
+}
+.txt_field span::before
+{
+	content: '';
+	position:fixed
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~label
+{
+   flow-into: none
+}
+
+input[type="submit"]
+{
+	width: 100%;
+	height: 50px;
+	border: 1px solid;
+	background: #7DA34A;
+	border-radius: 25px;
+	color: #e9f4fb;
+	font-weight: 600;
+	cursor: pointer
+}
+input[type="submit"]:hover
+{
+	transition: .5s
+}
+.social-icons
+{
+	margin: auto;
+	text-align: center;
+	cursor: pointer
+}
+
